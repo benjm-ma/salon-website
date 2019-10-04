@@ -1,0 +1,19 @@
+Sections:
+  # Hair Stylists
+  # Services Section
+  # Salon itself
+  # Events
+  # Portfolio
+  # Instagram feed
+  # Ability to book online
+  # Product display
+
+Stylist centric 
+  > Stylist availability
+  > Stylist Services
+  > Stylist portfolio
+  > Book with ______
+  
+> Services
+> Contact
+> Book

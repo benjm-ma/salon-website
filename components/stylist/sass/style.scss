@@ -1,0 +1,44 @@
+%clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.stylist-card {
+  width: 85%;
+  max-width: 1024px;
+  margin: 0px auto;
+  overflow: auto;
+
+  border: none;
+  padding: 0px;
+
+  &__header {
+    background-color: white; 
+    width: 50%;
+    display: inline;
+  }
+  &__stylist-name, &__stylist-spec { display: inline; }
+  &__stylist-spec { color: #aaa; }
+  &__stylist-name { font-size: 2rem; }
+
+  &__details {
+    overflow: auto;
+    padding: 10px;
+  }
+
+  &__services {
+    float: right;
+    width: 50%;
+    border: 1px solid black;
+  }
+
+  &__portrait { 
+    overflow: hidden;
+    margin: 0px;
+    background-color: #aaa;
+    &__img {
+      float: right;
+    }
+  }
+}
